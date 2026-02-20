@@ -1,0 +1,32 @@
+{
+  "name": "klaruthread",
+  "version": "1.0.1",
+  "description": "Klarulor library for multi threading immitation",
+  "keywords": [
+    "threading",
+    "klarulor"
+  ],
+  "homepage": "https://github.com/Klarulor/klaruthread#readme",
+  "bugs": {
+    "url": "https://github.com/Klarulor/klaruthread/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klarulor/klaruthread.git"
+  },
+  "license": "ISC",
+  "author": "Klarulor",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
